@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/page3.css" rel="stylesheet" type="text/css">
+        <!-- This links are from google fonts for setting font on navbar and other elements I found this code in W3schools -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="sect">
+            <div class="side one">
+                <div id="titlelogo">
+                    <!--img was taken from official website of dodgeroll https://dodgeroll.com/gungeon/-->
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="page 1.html">Keep Of The Lead Lord</a></li>
+                        <li><a href="page 2.html">Gungeon Proper</a></li>
+                        <li><a href="page 3.html">Black Powder Mine</a></li>
+                        <li><a href="page 4.html">Characters</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="side two">
+                <div class="inside left">
+                    <!--images has been taken from game assets. These images belong to enter the gungeon!-->
+                    <img id="topimg" src="images/Cannonbalrog.webp" alt="Cannonbalrog">
+                    <img id="midimg" src="images/Mine_Flayer.webp" alt="Mine Flayer">
+                    <img id="botimg" src="images/Treadnaught.webp" alt="Treadnaught">
+                </div>
+                <!--this div allows me to enlarge the pictures when pressed, and creates an X button so I can close the enlarged file -->
+                <div id="overlap" class="Popup">
+                    <!--x button to exit out of it which is my main.js used in js-->
+                    <span class="exit">&times;</span>
+                    <img class="popup-content" id="picture1">
+                    <div id="bottomtxt"></div>
+                </div>
+                <div class="inside right">
+                    <h1>Black Powder Mine</h1>
+                    <p>The Cannonbalrog rolls around the room and it fires a huge bullet circle when it hits the wall. Other attacks are:
+                        <br>&diams; Turns the room dark, after which he teleports around and fires lines of huge bullets which bounce one time of the wall.
+                        <br>&diams; Shoots bullets in a spiral from both of his eyes.
+                        <br>&diams; Keeps shooting bullets randomly at the player.
+                        <br>&diams; Hops around firing bullets in a circle.
+                    </p>
+                    <p>The Mine Flayer mostly keeps standing in the middle of the room and has multiple attacks:
+                        <br>&diams; Shoots massive rings of bullets, these bullets will expand and go to the sides.
+                        <br>&diams; Shoots two streams of bullets in many directions.
+                        <br>&diams; The Mine Flayer spins throwing walking claymores that explode if they come in contact with the player.
+                        <br>&diams; Fires bouncy bullets.
+                        <br>&diams; The Mine Flayer disappears and leavs man walking bells on the ground, for The Mine Flayer to reappear you need to shoot the right bell, otherwise shooting the incorrect bell with cause them to explode into bullets.
+                    </p>
+                    <p>The Treadnaught chases the player, while shooting bullets from turrets located in the corners. It also has other attacks:
+                        <br>&diams; Shoots a bullet which will spawn a tanker bullet kin.
+                        <br>&diams; Fires a bullet which will explode when it touches an object or a wall.
+                        <br>&diams; Fires bullets which split into smaller scatter bullets.
+                        <br>&diams; Shoots a heatseeking rocket which will explode into circular bullets.               
+                        <br>&diams; Shoots a large bullet that looks like a bomb that shoots many bullets before exploding into bigger bullets.        
+                    </p>
+                </div>
+            </div>
+
+        </div>     
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="Script/main.js"></script>
+    </body>

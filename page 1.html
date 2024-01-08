@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script type="text/javascript" src="Script/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/page1.css" rel="stylesheet" type="text/css">
+        <!-- This links are from google fonts for setting font on navbar and other elements I found this code in W3schools -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="sect">
+            <div class="side one">
+                <div id="titlelogo">
+                    <!--img was taken from official website of dodgeroll https://dodgeroll.com/gungeon/-->
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="page 1.html">Keep Of The Lead Lord</a></li>
+                        <li><a href="page 2.html">Gungeon Proper</a></li>
+                        <li><a href="page 3.html">Black Powder Mine</a></li>
+                        <li><a href="page 4.html">Characters</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="side two">
+                <div class="inside left">
+                    <!--images has been taken from game assets. These images belong to enter the gungeon!-->
+                    <img id="topimg" src="images/Bullet_King.WEBP" alt="bullet king">
+                    <img id="midimg" src="images/Gatling_Gull.WEBP" alt="gatling gull">
+                    <img id="botimg" src="images/Trigger_Twins.WEBP" alt="trigger twins">
+                </div>
+                <!--this div allows me to enlarge the pictures when pressed, and creates an X button so I can close the enlarged file -->
+                <div id="overlap" class="Popup">
+                    <!--x button to exit out of it which is my main.js used in js-->
+                    <span class="exit">&times;</span>
+                    <img class="popup-content" id="picture1">
+                    <div id="bottomtxt"></div>
+                </div>
+                <div class="inside right">
+                    <H1>KEEP OF THE LEAD LORD</H1>
+                    <p>The Bullet King chases the player around the room while attacking with his throne. The Bullet King has several different attacks:
+                        <br>&diams; he spins and fires lots of bullets in two patterns. This is followed by a circle of bullets. This attack puts The bullet king on a cooldown.
+                        <br>&diams; Bullets in a circular formation, some bulllets may move towards player.
+                        <br>&diams; Three spread of 4 bullets in the players direction.
+                        <br>&diams; Fires a giant bullet which spreads into smaller bullets and then those smaller bullets burst into even smaller bullets.
+                        <br>&diams; throws a flask full of gasoline which ignites after a bullet hits it.
+                    </p>
+                    <p>The Gatling Gull chases the player around the room while rapidly firing random amounts of bullets in the players directions. The gatling Gull has several attacks:
+                        <br>&diams; Fires a burst of many bullets in a circular line towards player.
+                        <br>&diams; Charges up a massive bullet that spreads into many smaller bullets upon impact.
+                        <br>&diams; Jumps up off the screen and lands on a player if they don't move.
+                        <br>&diams; jumps up off the screen and lands in a random location after which he will start firing rockets that land from the sky in players location.
+                        <br>&diams; If player gets too close the gatling gull will swing his minigun.
+                    </p>
+                    <p>The Trigger Twins both have similar types of attack:
+                        <br>&diams; Charges at the player. Charge is stopped by dealing damage to them.
+                        <br>&diams; Fires 6 bullets with precision towards the player.
+                        <br>&diams; Jumps up and after hitting the ground it sends bullets in all direction.
+                        <br>&diams; Does a Snapping/Whistling animation after which bullet kins are summoned.
+                        <br>&diams; Each twin also have their unique attacks: Smiley will rapidly fire a stream of bullets. Shades will fire triple bullets back to back 3 times.
+                        <br>&diams; When one of the twins die the other one will become enraged shooting even faster and shooting more.
+                    </p>
+                </div>
+            </div>
+
+        </div>     
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="Script/main.js"></script>
+    </body>

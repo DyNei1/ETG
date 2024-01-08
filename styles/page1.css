@@ -1,0 +1,56 @@
+.two{
+    position:relative;
+    z-index: 1;
+}
+/*code was taken from https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div I was struggling about this for a while but I modified the code myself as well*/
+.two::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(32, 32, 32);
+    opacity: 0.9;
+}
+.left{
+    float:left;
+    background-color: rgba(255, 0, 221, 0.185);
+    position: relative;
+    width: 325px;
+}
+/*I didn't copy the code but this page helped me to figure out how to fix image streching https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch*/
+.left img{
+    object-fit: contain;
+    width: 280px;
+    height: 270px;
+    border-style: outset;
+    border-color: rgba(0, 0, 0, 0.452);
+    border-width: 8px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 10px;
+}   
+.right{
+    position: relative;
+    left:25px;
+    float:right;
+    width: 930px;  
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    text-align:justify;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 11px;
+}
+.right p{
+    border: 6px;
+    border-style: inset;
+    border-color: rgba(207, 33, 193, 0.295);
+    padding:20px;
+    margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script type="text/javascript" src="Script/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/page4.css" rel="stylesheet" type="text/css">
+        <!-- This links are from google fonts for setting font on navbar and other elements I found this code in W3schools -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="sect">
+            <div class="side one">
+                <div id="titlelogo">
+                    <!--img was taken from official website of dodgeroll https://dodgeroll.com/gungeon/-->
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="page 1.html">Keep Of The Lead Lord</a></li>
+                        <li><a href="page 2.html">Gungeon Proper</a></li>
+                        <li><a href="page 3.html">Black Powder Mine</a></li>
+                        <li><a href="page 4.html">Characters</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--the way i figured out how to make slideshow with html,css,js was in w3schools-->>
+            <div class="side two">
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">1 / 8</div>
+                        <img src="images/Convict.webp" >
+                        <div class="undertxt">The Convict</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">2 / 8</div>
+                        <img src="images/Hunter.webp">
+                        <div class="undertxt">The Hunter</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">3 / 8</div>
+                        <img src="images/Marine.webp">
+                        <div class="undertxt">The Marine</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">4 / 8</div>
+                        <img src="images/Pilot.webp">
+                        <div class="undertxt">The Pilot</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">5 / 8</div>
+                        <img src="images/Cultist.webp">
+                        <div class="undertxt">The Cultist</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">6 / 8</div>
+                        <img src="images/Bullet.webp">
+                        <div class="undertxt">The Bullet</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">7 / 8</div>
+                        <img src="images/Robot.webp">
+                        <div class="undertxt">The Robot</div>
+                    </div>
+                </div>
+                <div class="slideshow-cont">
+                    <div class="slideshow fade">
+                        <div class="slidenumber">8 / 8</div>
+                        <img src="images/Gunslinger.webp">
+                        <div class="undertxt">The Gunslinger</div>
+                    </div>
+                </div>
+                <!--buttons-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </div>     
+    </div>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="Script/page4.js"></script>
+    </body>

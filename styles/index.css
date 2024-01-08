@@ -1,0 +1,13 @@
+/*this image was taken while playing the game by me*/
+body{
+    background-image: url('../images/etg.png');
+  }
+#backgroundover{
+    width: 46.68%;
+    height: 30%;
+    float: right;
+    display: flex;
+    right: 480px;
+    top:300px;
+    position: fixed;
+  }

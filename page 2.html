@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/page2.css" rel="stylesheet" type="text/css">
+        <!-- This links are from google fonts for setting font on navbar and other elements I found this code in W3schools -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="sect">
+            <div class="side one">
+                <div id="titlelogo">
+                    <!--img was taken from official website of dodgeroll https://dodgeroll.com/gungeon/-->
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="page 1.html">Keep Of The Lead Lord</a></li>
+                        <li><a href="page 2.html">Gungeon Proper</a></li>
+                        <li><a href="page 3.html">Black Powder Mine</a></li>
+                        <li><a href="page 4.html">Characters</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="side two">
+                <div class="inside left">
+                    <!--images has been taken from game assets. These images belong to enter the gungeon!-->
+                    <img id="topimg" src="images/Ammoconda.WEBP" alt="Ammoconda">
+                    <img id="midimg" src="images/Beholster.WEBP" alt="Beholster">
+                    <img id="botimg" src="images/Gorgun.webp" alt="Gorgun">
+                </div>
+                <!--this div allows me to enlarge the pictures when pressed, and creates an X button so I can close the enlarged file -->
+                <div id="overlap" class="Popup">
+                    <!--x button to exit out of it which is my main.js used in js-->
+                    <span class="exit">&times;</span>
+                    <img class="popup-content" id="picture1">
+                    <div id="bottomtxt"></div>
+                </div>
+                <div class="inside right">
+                    <h1>GUNGEON PROPER</h1>
+                    <p>The Ammoconda goes around the room chasing the player. The Ammoconda is an enemy built from segments and these segments do the attack:
+                        <br>&diams; Firing bullets in random direction out.
+                        <br>&diams; Fires bullets in many directions.
+                        <br>&diams; Fires bullets in a slithering pattern.
+                        <br>&diams; Fires bullets which make sharp turns towards the player.
+                        <br>&diams; Stops attacking for couple of seconds after which every segment fires bursts of bullets.
+                    </p>
+                    <p>The Beholster is a stationary enemy that attacks in all directions but does not move. His attacks are:
+                        <br>&diams; Firing a spread of bullets, followed up by ring of bullets.
+                        <br>&diams; Fires ultra fast small beams of light towards the player.
+                        <br>&diams; Fires Heatseeking missles in a random direction which chase the player, but this missles can be destroyed.
+                        <br>&diams; Charges up his eye after which The Beholster shoots a continuous beam of light, which goes back and forth towards the player.
+                        <br>&diams; Spawns his minions which look like small versions of him and shoot small moving bullets.
+                    </p>
+                    <p>The Gorgun is one of the hardest bosses in the game it has a stationary state and a moving state. Her attacks are:
+                        <br>&diams; Creates a shockwave and if the player is hit the player won't be able to shoot for some time.
+                        <br>&diams; Goes under the water, charges at the player and leaves a poisounous creep on the ground.
+                        <br>&diams; Fires two guns at the same time starting from her had down to her hips, this happens back to back 2 times.
+                        <br>&diams; Shoots a ring of bullets in every direction with little gaps, this gaps will close at the end.                       
+                    </p>
+                </div>
+            </div>
+
+        </div>     
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="Script/main.js"></script>
+    </body>
